@@ -58,25 +58,8 @@ else
             // multiples of ‘3’ print “Fizz” instead of the number
             // multiples of ‘5’ print “Buzz” instead of the number 
             // multiples of ‘5’ and '3' print “Pop” instead of the number 
-            for (int i = 0; i < 101; i++)
-            {
-                if ((i % 3) == 0 && (i % 5) == 0)
-                {
-                    Console.WriteLine("Pop");
-                }
-                else if ((i % 3) == 0)
-                {
-                    Console.WriteLine("Fizz");
-                }
-                else if ((i % 5) == 0)
-                {
-                    Console.WriteLine("Buzz");
-                }
-                else
-                {
-                    Console.WriteLine(i);
-                }
-            }
+            MathmaticalOperations mathmaticalOperations = new MathmaticalOperations();
+            mathmaticalOperations.FizzPopBuzz();
             break;
         case 4:
             // Phoebus - Software developer task

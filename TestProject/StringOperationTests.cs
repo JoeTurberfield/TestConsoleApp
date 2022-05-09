@@ -28,9 +28,9 @@ namespace TestProject
         public void ReverseStringWithSpecialCharactersTest()
         {
             StringOperations stringOperations = new StringOperations();
-            string reversedString = stringOperations.ReverseString("The @fox jumped over the wall! Where?");
+            string reversedString = stringOperations.ReverseString("The @fox jumped over the wall!?");
 
-            Assert.AreEqual("?erehW !llaw eht revo depmuj xof@ ehT", reversedString);
+            Assert.AreEqual("?!llaw eht revo depmuj xof@ ehT", reversedString);
         }
     }
 }
