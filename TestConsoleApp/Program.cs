@@ -111,8 +111,7 @@ else
 
                 if (isLeapYear)
                 {
-                    var feb = months["February"];
-                    feb = 29;
+                    months["February"] = 29;
                 }
 
                 // We only want to count from '1 Jan 1901 to 31 Dec 2000'
@@ -151,12 +150,16 @@ else
             Console.WriteLine("Sunday Count: " + sundayCount);
             break;
         case 5:
-            // Check for Prime Numbers
+            // Show Prime Numbers
+
+
+            break;
+        case 6:
+            // Check is Prime Number
 
 
             break;
     }
-
 
     return;
 }
